@@ -36,18 +36,18 @@ p {
     line-height: 1.4em;
 }
 
-.top-menu-container {
+.menu-utama {
     background-color: #e8e8e8;
     height: 80px;
     box-shadow: 0px 0px 10px #cccccc;
 }
 
 /* logo ikipnya */
-.logo-header img {
+.logo-ikip img {
     width: 50px;
 }
 
-.logo-header {
+.logo-ikip {
     display: block;
     position: absolute;
     left: 80px;
@@ -55,7 +55,7 @@ p {
 }
 
 /* menu kanan atas */
-.top-menu-container ul {
+.menu-utama ul {
     padding: 0;
     margin: 0;
     float: right;
@@ -64,11 +64,11 @@ p {
     right: 80px;
 }
 
-.top-menu-container ul li{
+.menu-utama ul li{
     display: inline;
 }
 
-.top-menu-container ul li a {
+.menu-utama ul li a {
     text-decoration: none;
     margin: 20px;
     font-size: 14px;
@@ -78,7 +78,7 @@ p {
 }
 
 /* home awal */
-#hero-container {
+#konten-awal {
     background: url('img/home.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -87,7 +87,7 @@ p {
     height: 90%;
 }
 
-.hero-wrapper {
+.wrapper-konten-awal {
     width: 80%;
     position: relative;
     top: 30%;
@@ -96,15 +96,15 @@ p {
 
 .line {
     text-decoration: line-through;
-    text-decoration-color: #ff6500;
+    text-decoration-color: #f509cd;
     font-style: italic;
 }
 
-.orange-txt {
-    color: #ff6500;
+.pink-txt {
+    color: #f509cd;
 }
 
-.btn-wrapper a {
+.forum-ikip a {
     text-decoration: none;
     color: #ffffff;
     border: 2px solid #ffffff;
@@ -115,18 +115,18 @@ p {
     margin: 0px 30px 0px 0px;
 }
 
-.btn-wrapper {
+.forum-ikip {
     padding: 60px 0px 0px 0px;
 }
 
-.hero-wrapper a:hover {
+.wrapper-konten-awal a:hover {
     color: #000000;
     background-color: #ffffff;
     transition: 0.20s ease-in-out;
 }
 
 /* skills */
-.container-grid-4 {
+.konten-turunan-edukasi {
     padding: 100px 0px;
     display: grid;
     margin: 0 auto;
@@ -136,11 +136,11 @@ p {
     text-align: center;
 }
 
-.container-grid-4 p {
+.konten-turunan-edukasi p {
     font-size: 14px;
 }
 
-.container-grid-4 img {
+.konten-turunan-edukasi img {
     width: 250px;
 }
 
@@ -157,7 +157,21 @@ hr {
     width: 30px;
 }
 
-.header-section {
+.header-persesi {
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 0px 100px 0px;
+}
+
+.header-persesi2 {
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 0px -50px 0px;
+}
+
+.header-persesi3 {
     font-size: 30px;
     margin: 0 auto;
     text-align: center;
@@ -165,35 +179,35 @@ hr {
 }
 
 /* about me */
-.container-grid-2 {
+.konten-tentang-saya {
     grid-template-columns: 1fr 1fr;
     display: grid;
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
     padding: 0px 0px 100px 0px;
 }
 
 .img {
-    width: 600px;
+    width: 300px;
 }
 
-.container-grid-2 h2 {
+.konten-tentang-saya h2 {
     padding: 0;
     color: #a3a3a3;
 }
 
-.container-grid-2 h3 {
+.konten-tentang-saya h3 {
     padding: 20px 0px 40px 0px;
 }
 
-.container-grid-2 div:nth-child(2) {
+.konten-tentang-saya div:nth-child(2) {
     margin: auto;
-    width: 80%;
+    width: 100%;
   }
 
-.container-grid-2 a {
-    background-color: #ff6500;
-    border: 1px solid #ff6500;
+.konten-tentang-saya a {
+    background-color: #f509cd;
+    border: 1px solid #f509cd;
     text-decoration: none;
     color: #ffffff;
     padding: 12px 30px;
@@ -201,15 +215,15 @@ hr {
     font-size: 20px;
 }
 
-.container-grid-2 a:hover {
+.konten-tentang-saya a:hover {
     color: #666;
-    border: 1px solid #ff6500;
+    border: 1px solid #f509cd;
     background-color: transparent;
     transition: 0.25s ease-in-out;
 }
 
 
-.section-why-us {
+.konten-skills {
     display: grid;
     padding: 0px 0px 100px 0px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -225,15 +239,15 @@ hr {
     margin: auto;
 }
 
-.section-why-us .icon-why-us {
+.konten-skills .gambarnya {
     padding: 30px;
     font-size: 30px;
     border-radius: 5px 20px 5px;
-    color: #ff6500;
-    box-shadow: 0px 5px 10px #ff6500;
+    color: #f509cd;
+    box-shadow: 0px 5px 10px #f509cd;
 }
 
-.section-why-us p {
+.konten-skills p {
     font-size: 14px;
 }
 
@@ -243,18 +257,18 @@ footer {
     box-shadow: 0px 0px 10px #dcdcdc;
 }
 
-.container-footer {
+.konten-akhir {
     width: 80%;
     margin: 0 auto;
     text-align: center;
     padding: 60px;
 }
 
-.container-footer img {
+.konten-akhir img {
     width: 50px;
     padding: 30px 0px 10px 0px;
 }
 
-.container-footer p {
+.konten-akhir p {
     font-size: 14px;
 }
